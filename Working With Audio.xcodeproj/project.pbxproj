@@ -14,6 +14,7 @@
 		3D6A683B1E4A4403000D87DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6A68391E4A4403000D87DF /* LaunchScreen.storyboard */; };
 		3D6A68461E4A4403000D87DF /* Working_With_AudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A68451E4A4403000D87DF /* Working_With_AudioTests.swift */; };
 		3D6A68511E4A4403000D87DF /* Working_With_AudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A68501E4A4403000D87DF /* Working_With_AudioUITests.swift */; };
+		3D6A685F1E4A45DC000D87DF /* omgflute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D6A685E1E4A45DC000D87DF /* omgflute.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D6A684C1E4A4403000D87DF /* Working With AudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Working With AudioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6A68501E4A4403000D87DF /* Working_With_AudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Working_With_AudioUITests.swift; sourceTree = "<group>"; };
 		3D6A68521E4A4403000D87DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6A685E1E4A45DC000D87DF /* omgflute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = omgflute.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3D6A68301E4A4403000D87DF /* AppDelegate.swift */,
 				3D6A68321E4A4403000D87DF /* ViewController.swift */,
+				3D6A685E1E4A45DC000D87DF /* omgflute.mp3 */,
 				3D6A68341E4A4403000D87DF /* Main.storyboard */,
 				3D6A68371E4A4403000D87DF /* Assets.xcassets */,
 				3D6A68391E4A4403000D87DF /* LaunchScreen.storyboard */,
@@ -231,6 +234,7 @@
 			files = (
 				3D6A683B1E4A4403000D87DF /* LaunchScreen.storyboard in Resources */,
 				3D6A68381E4A4403000D87DF /* Assets.xcassets in Resources */,
+				3D6A685F1E4A45DC000D87DF /* omgflute.mp3 in Resources */,
 				3D6A68361E4A4403000D87DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Working With Audio/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pranav.Working-With-Audio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Working With Audio/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pranav.Working-With-Audio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
